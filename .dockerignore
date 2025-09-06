@@ -1,0 +1,25 @@
+# ignore python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ignore virtualenv
+venv/
+.env
+
+# ignore git
+.git
+.gitignore
+
+# ignore data dumps or big files
+*.db
+*.sqlite3
+*.log
+*.csv
+*.jsonl
+*.pickle
+
+# ignore OS files
+.DS_Store
+Thumbs.db
